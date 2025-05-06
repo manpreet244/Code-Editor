@@ -1,0 +1,90 @@
+.homePageWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  height:100vh;
+  width: 100vw;
+}
+.formWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:400px;
+  max-width:90%;
+  background-color: #3e3259;
+  padding: 40px;
+  border-radius: 10px;
+}
+.homePageLogo{
+  width: 100px;
+  height: 100px;
+}
+footer{
+  position: fixed;
+  bottom:0;
+  display: flex;
+  align-items: center;
+}
+
+footer a{
+  color:aqua;
+
+}
+.createNewBtn{
+  color:aqua;
+  text-decoration: underline;
+}
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+.minLabel{
+  margin-bottom: 20px;
+
+}
+.homePageLogo{
+  width: 150px;
+  height: 150px;
+}
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: line;
+  border: none;
+  margin-bottom: 10px;
+  background-color: #eeeeee;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0,3s ease;
+}
+.joinBtn{
+  background-color: aqua;
+  color: black;
+  width:100px;
+  margin-top: 10px;
+margin-left: 150px;
+}
+.createInfo{
+  margin:0 auto;
+  margin-top: 20px;
+}
+.createNewBtn{
+  color:aqua;
+  text-decoration: none;
+  border-bottom: 1px solid aqua;
+  transition: all 0.3s ease;
+
+}
+.createNewBtn:hover , footer a:hover{
+  color:rgb(53, 208, 208);
+}
